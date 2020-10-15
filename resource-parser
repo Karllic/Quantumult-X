@@ -99,13 +99,13 @@ const escapeRegExp = str => str.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&'); //�
 var link1 = link0.split("#")[0]
 const qxpng = "https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png" // server sub-info link
 const subinfo_link = { "open-url": "https://t.me/QuanX_API", "media-url": "https://shrtm.nu/ebAr" };
-const subinfo_link1 = { "open-url": link1, "media-url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/auto.png" } // server sub-info link(fake-nodes)
-const rwrite_link = { "open-url": link1, "media-url": "https://shrtm.nu/x3o2" } // rewrite filter link
-const rwhost_link = { "open-url": link1, "media-url": "https://shrtm.nu/0n5J" } // hostname filter link
-const rule_link = { "open-url": link1, "media-url": "https://shrtm.nu/cpHD" } // rule filter link
+const subinfo_link1 = { "open-url": link1, "media-url": "" } // server sub-info link(fake-nodes)
+const rwrite_link = { "open-url": link1, "media-url": "" } // rewrite filter link
+const rwhost_link = { "open-url": link1, "media-url": "" } // hostname filter link
+const rule_link = { "open-url": link1, "media-url": "" } // rule filter link
 const nan_link = { "open-url": link1, "media-url": qxpng } // nan error link
 const bug_link = { "open-url": "https://t.me/Shawn_KOP_bot", "media-url": "https://shrtm.nu/obcB" } // bug link
-const sub_link = { "open-url": link1, "media-url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Quantumult_X" } // server link
+const sub_link = { "open-url": link1, "media-url": "" } // server link
 
 
 SubFlow() //流量通知
