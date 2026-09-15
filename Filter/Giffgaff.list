@@ -1,6 +1,7 @@
 #Giffgaff wifi calling
 
 # 英国地区 / 英国运营商流量
+host, gspe1-ssl.ls.apple.com, giffgaff
 host-suffix, gspe1-ssl.ls.apple.com, giffgaff
 
 # Vodafone UK
@@ -16,5 +17,6 @@ ip-cidr, 46.68.0.0/17, giffgaff
 
 # Giffgaff
 host-suffix, giffg11111.pcapredict.com, giffgaff
+host-suffix, giffgaff.design, giffgaff
 host-suffix, giffgaff.com, giffgaff
 ip-cidr, 87.194.0.0/16, giffgaff
